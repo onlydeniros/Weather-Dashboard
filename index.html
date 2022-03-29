@@ -19,35 +19,48 @@
         <h1>Weather Dashboard</h1>
     </header>
 
-    <main>
-        <section class="marginForm">
-            <div class="col-3 pb-2 pt-3" id="searchCity">
-                <div class="row">
-                    <div class="col-12">
-                        <h4>Search for a City:</h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-9">
-                        <div class="input-group">
-                            <input class="form-control" type="text" id="enterCity" placeholder="Enter City"><button
-                                type="button" id="searchBtn" class="btn btn-primary"><i
-                                    class="fas fa-search"></i></button>
+    <main class="row">
+        <div class="col-3">
+
+
+            <section class="marginForm">
+                <div class="pb-2 pt-3" id="searchCity">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>Search for a City:</h4>
                         </div>
                     </div>
-                </div>
-        </section>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="input-group">
+                                <input class="form-control" type="text" id="enterCity" placeholder="Enter City"><button
+                                    type="button" id="searchBtn" class="btn btn-primary"><i
+                                        class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+            </section>
 
-        <section id="searchHistory">
-            <div class="row mt-4 marginForm">
-                <div class="col-12">
-                    <ul id="cityHistory" class="list-group">
-                        <!-- append li here li class="list-group-item"-->
-                    </ul>
+            <section id="searchHistory">
+                <div class="row mt-4 marginForm">
+                    <div>
+                        <ul id="cityHistory" class="list-group">
+                            <!-- append li here li class="list-group-item"-->
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
 
+        <div class="col-9">
+            <section id="jumbotron">
+                <div>
+
+                </div>
+            </section>
+
+
+        </div>
 
     </main>
 

@@ -9,3 +9,14 @@
 .marginForm{
     margin: 30px;
 }
+
+.listStyle{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+#jumbotron{
+    min-height: 400px;
+    border: 2px black solid;
+}

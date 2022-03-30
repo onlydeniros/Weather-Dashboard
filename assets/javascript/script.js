@@ -40,7 +40,15 @@ function forecast(lat, lon) {
         })
         .then(function (data) {
             console.log(data)
+            var inputName=$()
+            $('#weatherName').append()
+            $('#temp').append(`<p>Temp: ${data.current.temp} &#176F`)
+            $('#wind').append(`<p>Wind: ${data.current.wind_speed} MPH`)
+            $('#humidity').append(`<p>Humidity: ${data.current.humidity}%`)
+            $('#uvIndex').append(`<p>UV Index: ${data.current.uvi}%`)
         })
+
+
 }
 
 

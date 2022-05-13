@@ -8,4 +8,4 @@ In this challenge, I am required to create a weather dashboard that when a user 
 [Deployed Site](https://onlydeniros.github.io/Weather-Dashboard/)
 
 ## Screenshot of the deployed site
-![ScreenShot](Screen%20Shot%202022-04-03%20at%205.03.54%20PM.png)
+![Screenshot](Screen%20Shot%202022-05-13%20at%203.12.37%20AM.png)
